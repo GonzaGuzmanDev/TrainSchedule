@@ -1,0 +1,21 @@
+# Frontend (React Native/Expo)
+frontend/node_modules/
+frontend/.expo/
+frontend/.expo-shared/
+frontend/.next/
+frontend/.env
+
+# Backend (Python)
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/.vscode/
+backend/*.log
+
+# General
+.DS_Store
+*.log
+*.pyc
+*.sqlite3

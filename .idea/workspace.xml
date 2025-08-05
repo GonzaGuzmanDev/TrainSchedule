@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ade38131-b0e3-4ed4-a773-9efeca5c614f" name="Changes" comment="changed structure, added frontend so now is backend/frontend&#10;&#10;Frontend is React with Expo" />
+    <list default="true" id="ade38131-b0e3-4ed4-a773-9efeca5c614f" name="Changes" comment="added backend to git">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +96,7 @@
       <workItem from="1754357815448" duration="2663000" />
       <workItem from="1754366943090" duration="5460000" />
       <workItem from="1754372497353" duration="2376000" />
-      <workItem from="1754405975102" duration="4414000" />
+      <workItem from="1754405975102" duration="4649000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -112,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754412303756</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added backend to git">
+      <option name="closed" value="true" />
+      <created>1754412706772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754412706772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +142,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="changed structure, added frontend so now is backend/frontend&#10;&#10;Frontend is React with Expo" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed structure, added frontend so now is backend/frontend&#10;&#10;Frontend is React with Expo" />
+    <MESSAGE value="added backend to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="added backend to git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
