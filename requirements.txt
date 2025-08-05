@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+openpyxl
+python-multipart  # Por si después querés subir PDFs vía endpoint
