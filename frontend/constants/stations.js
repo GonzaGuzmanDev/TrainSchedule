@@ -1,0 +1,32 @@
+// frontend/constants/stations.js
+export const DAY_TYPES = [
+  'LUNES A VIERNES',
+  'SÁBADOS',
+  'DOMINGOS Y FERIADOS'
+];
+
+export const STATIONS = [
+  'RETIRO',
+  'SALDIAS',
+  'CIUDAD UNIVERSITARIA',
+  'A. del VALLE',
+  'M. PADILLA',
+  'FLORIDA',
+  'MUNRO',
+  'CARAPACHAY',
+  'V. ADELINA',
+  'BOULOGNE',
+  'MONTES',
+  'DON TORCUATO',
+  'A. SOURDEAUX',
+  'CIUDAD VILLA DE MAYO',
+  'CIUDAD LOS POLVORINES',
+  'CIUDAD ING. P. NOGUES',
+  'CIUDAD GRAND BOURG',
+  'TIERRAS ALTAS',
+  'CIUDAD TORTUGUITAS',
+  'M. ALBERTI',
+  'DEL VISO',
+  'CECILIA GRIERSON',
+  'VILLA ROSA'
+];
