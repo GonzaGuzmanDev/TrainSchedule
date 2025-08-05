@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ade38131-b0e3-4ed4-a773-9efeca5c614f" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/frontend/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/(tabs)/results.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/components/ResultsScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/components/SearchScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/constants/stations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fastApiProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastApiProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scraper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/horarios.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/horarios_old.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/horarios-tren-belgrano-norte.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/horarios-tren-belgrano-norte.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main.http" beforeDir="false" />
-    </list>
+    <list default="true" id="ade38131-b0e3-4ed4-a773-9efeca5c614f" name="Changes" comment="changed structure, added frontend so now is backend/frontend&#10;&#10;Frontend is React with Expo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +94,7 @@
       <workItem from="1754357815448" duration="2663000" />
       <workItem from="1754366943090" duration="5460000" />
       <workItem from="1754372497353" duration="2376000" />
-      <workItem from="1754405975102" duration="4025000" />
+      <workItem from="1754405975102" duration="4414000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -124,15 +104,35 @@
       <option name="project" value="LOCAL" />
       <updated>1754372707440</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed structure, added frontend so now is backend/frontend&#10;&#10;Frontend is React with Expo">
+      <option name="closed" value="true" />
+      <created>1754412303756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754412303756</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="changed structure, added frontend so now is backend/frontend&#10;&#10;Frontend is React with Expo" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed structure, added frontend so now is backend/frontend&#10;&#10;Frontend is React with Expo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
