@@ -10,7 +10,7 @@ export const STATIONS = [
   'SALDIAS',
   'CIUDAD UNIVERSITARIA',
   'A. del VALLE',
-  'M. PADILLA',
+  'M.PADILLA',
   'FLORIDA',
   'MUNRO',
   'CARAPACHAY',

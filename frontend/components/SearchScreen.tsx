@@ -58,6 +58,27 @@ const SearchScreen = () => {
     } catch (error) {
       console.error(error);
       Alert.alert('Error', 'No se pudieron obtener los horarios');
+      if (axios.isAxiosError(error)) {
+        if (error.response) {
+          // Error del servidor (4xx, 5xx)
+          const status = error.response.status;
+          const detail = error.response.data?.detail || 'Error desconocido';
+
+          if (status === 400) {
+            Alert.alert('Error de validación', `Detalle: ${detail}`);
+          } else {
+            Alert.alert(`Error del servidor (${status})`, detail);
+          }
+        } else if (error.request) {
+          // No se recibió respuesta
+          Alert.alert('Error de conexión', 'No se pudo conectar al servidor');
+        } else {
+          // Error en la configuración
+          Alert.alert('Error en la solicitud', error.message);
+        }
+      } else {
+        Alert.alert('Error inesperado', String(error));
+      }
     } finally {
       setLoading(false);
     }
